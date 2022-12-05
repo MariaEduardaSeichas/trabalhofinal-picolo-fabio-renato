@@ -1,0 +1,15 @@
+{
+  "name": "trabalho-final-renato",
+  "version": "1.0.0",
+  "description": "Trabalho Final",
+  "main": ": index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ."
+  },
+  "author": "Maria Eduarda",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.1.2"
+  }
+}
