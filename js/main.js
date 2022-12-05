@@ -15,7 +15,7 @@ const map = document.getElementById('mapa');
 const sucesso = (posicao) => {//callback de sucesso para captura da posicao
     posicaoInicial = posicao;
 
-    map.src = "http://maps.google.com/maps?q="+ posicaoInicial.coords.latitude+"," + posicaoInicial.coords.longitude +"&z=16&output=embed"
+    map.src = "https://maps.google.com/maps?q="+ posicaoInicial.coords.latitude+"," + posicaoInicial.coords.longitude +"&z=16&output=embed"
 };
 
 const erro = (error) => {//callback de error (falha para captura de localizacao)
