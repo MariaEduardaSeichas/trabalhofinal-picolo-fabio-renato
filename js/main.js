@@ -42,7 +42,7 @@ capturarLocalizacao.addEventListener('click', () => {
 
 
 });
- let url= 'https://doubtful-pear-donkey.cyclic.app/produtos';
+ let url= 'https://puce-zealous-puffer.cyclic.app/produtos';
 
  async function postNews() {
     const res = await fetch(url);
